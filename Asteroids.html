@@ -1,0 +1,26 @@
+<?php $thisPage = "Asteroids"; ?>
+<!DOCTYPE HTML>
+<html>
+	<!-- header -->
+    <link rel="stylesheet" href="homestyle.css" type="text/css" media="screen" />
+    <head>
+        <title><?php if ($thisPage!="") echo "$thisPage"; ?></title>
+    </head>
+    <body>
+    	<!-- navbar inclusion -->
+    	<?php include('nav.php'); ?>
+    	
+    	<!-- main body -->
+        <div class="mainbodycontent">
+        <h1>Asteroids</hl>
+        <br/>
+        <p style="font-size: medium">The OSCAAR code can be used for more than just exoplanet research.
+        Brett Morris also used it to study asteroids with satellites.
+        He used it to study the binary asteroid Kalliope and its satellite Linus in February 2011.
+        He was able to measure the decrease in brightness in the system as Linus passed over Kalliope.
+        The results were featured in a presentation at Asteroids Comets and Meteors in Japan in 2012.</p>
+        
+        <img class="centered-photo" src="example_images/kalliope.png" alt="" />
+        </div>
+    </body>
+</html>
